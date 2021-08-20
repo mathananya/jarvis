@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+
+
+html{
+	scroll-behavior: smooth;
+	font-family: open-sans;
+}
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	background: url("jarvisbg.png") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	padding: 5rem;
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+}
+
+.custom {
+	cursor: url("http://www.simpleimageresizer.com/_uploads/photos/a20e2be8/gear_32x32.png");
+}
+
+.heading {
+	color: #08F7FE;
+	font-size: 5vw;
+	font-family: 'Zen Tokyo Zoo', cursive;
+	text-shadow: 2px 2px 15px black;
+	background-color: rgba(0,0,0,0.7);
+	padding: 12 12 4 12px;
+	border-left: double 15px rgba(255,255,255,0.8);
+}
+
+.gallery {
+	display: flex;
+	padding: 0vw;
+	margin-top: 2vw;
+	border: solid 0.3vw white;
+}
+
+video {
+	width: 100%;
+	height: auto;
+	padding: 0vw;
+	border: solid 0.2vw white;
+}
