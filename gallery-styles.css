@@ -1,0 +1,13 @@
+.gallery {
+	display: flex;
+	padding: 0vw;
+	margin-top: 2vw;
+	border: solid 0.3vw white;
+}
+
+video {
+	width: 100%;
+	height: auto;
+	padding: 0vw;
+	border: solid 0.2vw white;
+}
